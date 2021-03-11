@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeGenerator", "MazeGenerator.csproj", "{2E4EC012-89D0-4D35-9689-9FB3D0B54E6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Develop", "..\Develop\Develop.csproj", "{2537125D-E91C-45D1-8618-E143FC8EFA81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E4EC012-89D0-4D35-9689-9FB3D0B54E6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E4EC012-89D0-4D35-9689-9FB3D0B54E6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E4EC012-89D0-4D35-9689-9FB3D0B54E6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E4EC012-89D0-4D35-9689-9FB3D0B54E6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2537125D-E91C-45D1-8618-E143FC8EFA81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2537125D-E91C-45D1-8618-E143FC8EFA81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2537125D-E91C-45D1-8618-E143FC8EFA81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2537125D-E91C-45D1-8618-E143FC8EFA81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14C776E1-047D-4212-B174-A54F2F1B2ADA}
+	EndGlobalSection
+EndGlobal
