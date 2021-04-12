@@ -122,18 +122,30 @@ namespace Develop
         {
             if (e.Key == Key.W)
             {
+                if (LocationY - 1 < 0) return;
+                if (Maze.Cells[LocationX, LocationY - 1].HasSouthWall) return;
+
                 LocationY--;
             }
             if (e.Key == Key.A)
             {
+                if (LocationX - 1 < 0) return;
+                if (Maze.Cells[LocationX - 1, LocationY].HasEastWall) return;
+
                 LocationX--;
             }
             if (e.Key == Key.S)
             {
+                if (LocationY + 1 >= Maze.Height) return;
+                if (Maze.Cells[LocationX, LocationY + 1].HasNorthWall) return;
+
                 LocationY++;
             }
             if (e.Key == Key.D)
             {
+                if (LocationX + 1 >= Maze.Width) return;
+                if (Maze.Cells[LocationX + 1, LocationY].HasWestWall) return;
+
                 LocationX++;
             }
 
